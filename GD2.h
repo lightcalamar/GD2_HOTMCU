@@ -13,7 +13,7 @@
 
 #include "Arduino.h"
 #include <stdarg.h>
-
+#define POR_PIN           7   // Definir el pin PD de las pantallas http://hotmcu.com 
 #define CS_PIN           53   //FT80X enable signal
 #define SD_PIN            5   // microSD enable signal
 
@@ -21,7 +21,7 @@
 #define BOARD_GAMEDUINO23 1
 
 #define PROTO             0 //0 FT843 or FT80x alternatives, 1 MEGA, UNO y gameduino2
-#define ORIENTACION       0   //0,  1   //orientación de la pantalla
+#define ORIENTACION       0   //0,  1   //orientaciÃ³n de la pantalla
 
 #define BOARD_EVITA_0     2
 
