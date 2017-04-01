@@ -11,8 +11,8 @@ SCLK = 52
 
 CS   = 53
 
-PD   = Cominng son ..
+PD   =  7
 
 INT  = None conection
 
-
+Si usa Arduino UNO r3, modifique el PINOUT correspondiente. Las modificaciones se hacen en el fichero GD2.h
