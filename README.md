@@ -16,3 +16,8 @@ PD   =  7
 INT  = None conection
 
 Si usa Arduino UNO r3, modifique el PINOUT correspondiente. Las modificaciones se hacen en el fichero GD2.h
+
+
+# DOCUMENTAQCION MANUAL SERVICE PDF 1.0
+
+http://forum.arduino.cc/index.php?topic=445405.0
