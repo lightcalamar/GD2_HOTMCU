@@ -11,8 +11,8 @@ SCLK = 52
 
 CS   = 53
 
-PD   = Futurible ... Coming son ..
+PD   = Cominng son ..
 
-INT  = none conection
+INT  = None conection
 
 
