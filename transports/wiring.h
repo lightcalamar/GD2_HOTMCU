@@ -16,14 +16,14 @@ public:
   void por(){
     pinMode(POR_PIN, OUTPUT);       // CONTROL P.O.R. Power On Reset
     digitalWrite(POR_PIN, HIGH);    // Pantalla FT800 comparada
-    delay(20);                     // en http://HotMCU.com
+    delay(20);                      // en http://HotMCU.com
     digitalWrite(POR_PIN, LOW);     //           |
-    delay(20);                     //           |
+    delay(20);                      //           |
     digitalWrite(POR_PIN, HIGH);    //           |
     delay(20); 	
   }	
   void begin0() {
-	por();  
+    por();  
     ios();
 
     SPI.begin();
