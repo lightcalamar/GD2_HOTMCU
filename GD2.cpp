@@ -395,11 +395,17 @@ void GDClass::storage(void) {
 
 void GDClass::self_calibrate(void) {
   #define RAM_TP1 0
+   typedef const unsigned char prog_uchar;
 
+  static const PROGMEM prog_uchar Tp1[] = {
+    #include "Tp1.h"
+  };
+ /*
   const unsigned char Tp1[] PROGMEM  = {	  
     #include "Tp1.h"
   };
-/*  
+  */
+ 
   cmd_dlstart();
   //GD.wr(REG_ROTATE, ORIENTACION);
 
@@ -425,7 +431,7 @@ void GDClass::self_calibrate(void) {
   cmd_loadidentity();
   cmd_dlstart();
   GDTR.flush();
-  */
+  
 }
 
 void GDClass::seed(uint16_t n) {
@@ -1336,10 +1342,17 @@ void GDClass::alert(const char *message)
 {
 
   #define RAM_RAD1 0
+    typedef const unsigned char prog_uchar;
+
+  static const PROGMEM prog_uchar Rad1[] = {
+    #include "Rad1.h"
+  };
+  /*
   const unsigned char  Rad1[] PROGMEM  = {
     #include "Rad1.h"
   };
-/*
+  */
+
   begin(0);
   cmd_dlstart();
   //GD.wr(REG_ROTATE, ORIENTACION);   
@@ -1372,7 +1385,7 @@ void GDClass::alert(const char *message)
   GD.finish();
   for (;;)
     ;
-*/
+
 }
 
 void GDClass::safeload(const char *filename)
