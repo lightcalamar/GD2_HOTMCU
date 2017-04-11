@@ -21,3 +21,6 @@ Si usa Arduino UNO r3, modifique el PINOUT correspondiente. Las modificaciones s
 # DOCUMENTACION MANUAL SERVICE PDF 1.0
 
 http://forum.arduino.cc/index.php?topic=445405.0
+
+
+<a href="http://imgur.com/pCvu09C"><img src="http://i.imgur.com/pCvu09C.jpg" title="source: imgur.com" /></a>
