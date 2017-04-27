@@ -3,9 +3,9 @@ Pantallas FT80x compradas en http://HotMCU.com
 Resolución 480 x 272 pixels
 
 # PINOUT con Arduino MEGA
-MISO = 50
+* MISO = 50
 
-MOSI = 51
+* MOSI = 51
 
 SCLK = 52
 
